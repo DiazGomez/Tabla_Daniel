@@ -1,0 +1,51 @@
+/*  Nombre: Daniel A. Diaz Gomez
+    Fecha: 25 de Enero del añ0 2022
+    Curso: INTE2520L
+    Actividad: Añadiendo una tabla a tu página web*/
+
+
+
+    body{
+        font-family:verdana;
+    }
+
+    table{
+        width: 60%;
+        margin: 0px 200px;
+        border: solid 1px;
+        padding-bottom: 0px;
+    }
+
+    caption{
+        font-size: 25px;
+        font-weight: bold;   
+        caption-side: top;
+        text-align: center;
+    }
+
+    tbody{ 
+        width:550px;
+        margin: 0 auto;
+    }
+    
+    th{
+        text-align: center;
+        background-color: aqua;
+        border: solid;
+        padding: 10px; 
+    }
+
+    td{
+        text-align: center;
+        background-color: greenyellow;
+        border: solid;
+        padding: 10px;
+    }
+
+    tfoot{
+        text-align: center;
+    }
+
+    hr{
+        padding: 15px;
+    }
